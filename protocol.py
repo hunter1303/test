@@ -8,7 +8,7 @@ from twisted.python import log, failure, filepath
 '''
 S:Server
 C:Client
-hunter.lv
+hunter.lv1
 S->C    PUSH filename size\r\n
 C->S    ACK\r\n
 S->C    file contents
